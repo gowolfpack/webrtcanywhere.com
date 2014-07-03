@@ -1,0 +1,474 @@
+<html>
+    <head>
+        <title>WebRTC is ready!</title>
+        <link href="style/normalize.css" rel="stylesheet" type="text/css" />
+        <link href="style/font.css" rel="stylesheet" type="text/css" />
+        <link href="style/style.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div class="content">
+            <div class="header">
+                <h1>WebRTC is ready!</h1>
+            </div>
+            <div class="box">
+                <div class="header">
+                    <h2>Platform support scorecard</h2>
+                </div>
+                <hr />
+                <table cellpadding="3" cellspacing="0">
+                    <tr>
+                        <th style="width: 64px"></th>
+                        <th><img src="image/chrome-32.png" alt="Chrome" /></th>
+                        <th><img src="image/firefox-32.png" alt="Firefox" /></th>
+                        <th><img src="image/opera-32.png" alt="Opera" /></th>
+                        <th><img src="image/ie-32.png" alt="Internet Explorer" /></th>
+                        <th><img src="image/safari-32.png" alt="Safari" /></th>
+                        <th><img src="image/ios-32.png" alt="iOS" /></th>
+                        <th><img src="image/android-32.png" alt="Android" /></th>
+                        <th><img src="image/windowsphone-32.png" alt="Windows Phone" /></th>
+                        <th><img src="image/windows-32.png" alt="Windows" /></th>
+                        <th><img src="image/mac-32.png" alt="Mac" /></th>
+                        <th><img src="image/linux-32.png" alt="Linux" /></th>
+                        <th><img src="image/dotnet-32.png" alt=".NET" /></th>
+                        <th><img src="image/java-32.png" alt="Java" /></th>
+                        <th><img src="image/xamarin-32.png" alt="Xamarin" /></th>
+                        <th><img src="image/unity-32.png" alt="Unity" /></th>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <th>Chrome</th>
+                        <th>Firefox</th>
+                        <th>Opera</th>
+                        <th>IE</th>
+                        <th>Safari</th>
+                        <th>iOS</th>
+                        <th>Android</th>
+                        <th>WP8</th>
+                        <th>Windows</th>
+                        <th>Mac</th>
+                        <th>Linux</th>
+                        <th>.NET</th>
+                        <th>Java</th>
+                        <th>Xamarin</th>
+                        <th>Unity</th>
+                    </tr>
+                    <tr>
+                        <td>WebRTC API</td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="no"></td>
+                        <td class="no"></td>
+                        <td class="no"></td>
+                        <td class="no"></td>
+                        <td class="no"></td>
+                        <td class="no"></td>
+                        <td class="no"></td>
+                        <td class="no"></td>
+                        <td class="no"></td>
+                        <td class="no"></td>
+                        <td class="no"></td>
+                        <td class="no"></td>
+                    </tr>
+                    <tr>
+                        <td>ORTC API</td>
+                        <td class="no"></td>
+                        <td class="no"></td>
+                        <td class="no"></td>
+                        <td class="dev"></td>
+                        <td class="no"></td>
+                        <td class="no"></td>
+                        <td class="no"></td>
+                        <td class="no"></td>
+                        <td class="no"></td>
+                        <td class="no"></td>
+                        <td class="no"></td>
+                        <td class="no"></td>
+                        <td class="no"></td>
+                        <td class="no"></td>
+                        <td class="no"></td>
+                    </tr>
+                    <tr>
+                        <td>Link API</td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                    </tr>
+                    <tr>
+                        <td>Conference API</td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                    </tr>
+                    <tr>
+                        <td>Media API</td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="dev"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="dev"></td>
+                        <td class="dev"></td>
+                    </tr>
+                    <tr>
+                        <td>No Plugin Required</td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="no"></td>
+                        <td class="no"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                    </tr>
+                    <tr>
+                        <td>Video Constraints</td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="dev"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="dev"></td>
+                        <td class="dev"></td>
+                    </tr>
+                    <tr>
+                        <td>TURN Support</td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                    </tr>
+                    <tr>
+                        <td>DTLS/AES Encryption</td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                    </tr>
+                    <tr>
+                        <td>Data Channels</td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                    </tr>
+                    <tr>
+                        <td>Reliable Data Channels</td>
+                        <td class="dev"></td>
+                        <td class="dev"></td>
+                        <td class="dev"></td>
+                        <td class="dev"></td>
+                        <td class="dev"></td>
+                        <td class="dev"></td>
+                        <td class="dev"></td>
+                        <td class="dev"></td>
+                        <td class="dev"></td>
+                        <td class="dev"></td>
+                        <td class="dev"></td>
+                        <td class="dev"></td>
+                        <td class="dev"></td>
+                        <td class="dev"></td>
+                        <td class="dev"></td>
+                    </tr>
+                    <tr>
+                        <td>Custom Media Providers</td>
+                        <td class="no"></td>
+                        <td class="no"></td>
+                        <td class="no"></td>
+                        <td class="no"></td>
+                        <td class="no"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                    </tr>
+                    <tr>
+                        <td>Audio Muting</td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                    </tr>
+                    <tr>
+                        <td>Video Muting</td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                    </tr>
+                    <tr>
+                        <td>Force TURN Relay</td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                    </tr>
+                    <tr>
+                        <td>Solid Interoperability</td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                    </tr>
+                    <tr>
+                        <td>Opus Audio</td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="dev"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="dev"></td>
+                        <td class="dev"></td>
+                    </tr>
+                    <tr>
+                        <td>Custom Audio Codecs</td>
+                        <td class="no"></td>
+                        <td class="no"></td>
+                        <td class="no"></td>
+                        <td class="no"></td>
+                        <td class="no"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                    </tr>
+                    <tr>
+                        <td>VP8 Video</td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="dev"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="dev"></td>
+                        <td class="dev"></td>
+                    </tr>
+                    <tr>
+                        <td>Custom Video Codecs</td>
+                        <td class="no"></td>
+                        <td class="no"></td>
+                        <td class="no"></td>
+                        <td class="no"></td>
+                        <td class="no"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                        <td class="yes"></td>
+                    </tr>
+                </table>
+            </div>
+            <p>The data for this table is based on IceLink version 2.4.11.</p>
+            <hr />
+            <div class="cols">
+                <div class="left">
+                    <h2>IceLink delivers WebRTC anywhere...<br />right now.</h2>
+                    <p>
+                        With support for every major browser and every
+                        major platform, IceLink lets you build robust,
+                        reliable applications quickly and easily right
+                        now using WebRTC technology.
+                    </p>
+                    <h3>Internet Explorer? Check. Safari? Check.</h3>
+                    <p>
+                        With an ActiveX control for Internet Explorer
+                        and a Java applet for Safari, IceLink delivers
+                        WebRTC to every major web browser.
+                    </p>
+                    <p>
+                        To the developer, the process is seamless - just
+                        provide a reference to the .cab or .jar on your
+                        server. IceLink takes care of the rest.
+                    </p>
+                    <p>
+                        Check out a live demonstration at
+                        <a href="http://demo.icelink.fm/">demo.icelink.fm</a>...
+                    </p>
+                    <p>
+                        ...or download the <b>free</b> Community edition
+                        at <a href="http://icelink.fm/">icelink.fm</a>.
+                    </p>
+                </div>
+                <div class="right">
+                    <div style="width: 90%">
+                        <a href="http://www.icelink.fm/"><img src="image/icelink-logo.png" alt="IceLink" /></a>
+                        <h3>WebRTC Anywhere</h3>
+                        <p>
+                            IceLink is created by
+                            <a href="http://www.frozenmountain.com/icelink/">Frozen Mountain</a>,
+                            the leading provider of real-time communications
+                            SDKs for desktop, mobile, and web.
+                        </p>
+                        <p>
+                            IceLink is fully interoperable with any
+                            signalling platform (WebSync, SIP, XMPP).
+                        </p>
+                        <p>
+                            Learn more at <a href="http://icelink.fm/">icelink.fm</a>.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <hr />
+            <div class="footer">
+                <a href="http://www.frozenmountain.com/icelink/"><img src="image/fm-logo.png" alt="Frozen Mountain" /></a>
+            </div>
+        </div>
+    </body>
+</html>
