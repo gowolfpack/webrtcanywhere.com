@@ -31,16 +31,16 @@ h2
     font-size: 1.75em;
     margin: 1em 0;
 }
-table
+table.platforms
 {
     font-size: 0.75em;
 }
-th
+table.platforms th
 {
     width: 48px;
     text-align: center;
 }
-td
+table.platforms td
 {
     text-align: right;
     border-top: 3px solid #fff;
