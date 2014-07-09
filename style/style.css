@@ -9,20 +9,22 @@ body
 {
     width: 900px;
     margin: auto;
-    margin-top: 8em;
-    margin-bottom: 4em;
 }
 .header
 {
+    width: 100%;
     text-align: center;
 }
 .footer
 {
+    width: 100%;
     text-align: center;
 }
 h1
 {
     font-size: 3em;
+    padding: 0;
+    margin: 0.5em 0;
 }
 h2
 {
@@ -59,7 +61,6 @@ hr
 {
     padding: 0 2em 2em;
     border: 1px solid #ddd;
-    margin: 2em 0;
 }
 .yes
 {
